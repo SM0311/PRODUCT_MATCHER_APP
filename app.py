@@ -9,7 +9,7 @@ from fuzzy_gpt_match import perform_fuzzy_gpt_matching
 
 
 st.set_page_config(page_title="Product Matching App", layout="wide")
-st.title("PRODUCT MATCHING APPLICATION")
+st.title("LLM BASED PRODUCT MATCHING APPLICATION")
 
 # Upload Section
 st.header("1. Upload Product Files")
