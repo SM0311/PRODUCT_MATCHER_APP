@@ -1,10 +1,11 @@
 import streamlit as st
 import pandas as pd
-from utils.cleaning import standardize_product_name
-from utils.exact_match import perform_exact_match
-from utils.fuzzy_match import perform_fuzzy_matching
-from utils.gpt_match import validate_with_gpt
-from utils.fuzzy_gpt_match import perform_fuzzy_gpt_matching
+
+from standardize_product_name import standardize_product_name
+from perform_exact_match import perform_exact_match
+from perform_fuzzy_matching import perform_fuzzy_matching
+from validate_with_gpt import validate_with_gpt
+from perform_fuzzy_gpt_matching import perform_fuzzy_gpt_matching
 
 st.set_page_config(page_title="Product Matching App", layout="wide")
 st.title("PRODUCT MATCHING APPLICATION")
