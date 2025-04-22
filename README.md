@@ -1,6 +1,8 @@
 # Product Matching System
 AI-powered tool to match supplier and store products using exact, fuzzy, and GPT-based logic
 
+## APP URL - https://appuctmatcherappgit-573yifdm2s3teuupugpskm.streamlit.app/ 
+
 ## Objective
 
 The goal of this project is to develop an intelligent, automated system to match external supplier products with internal store inventory. This aims to replace the current slow and manual process. The match criteria require exact alignment on product manufacturer, name, and size.
