@@ -1,6 +1,6 @@
 import pandas as pd
 from rapidfuzz import process, fuzz
-from utils.gpt_match import validate_with_gpt
+from gpt_match import validate_with_gpt
 
 def fuzzy_match_product(external_name, internal_names, threshold=80):
     result = process.extractOne(
